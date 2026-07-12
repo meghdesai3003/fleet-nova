@@ -8,6 +8,7 @@ const {
   dispatchTrip,
   completeTrip,
   cancelTrip,
+  deleteTrip,
 } = require('../controllers/tripController');
 
 router.use(authMiddleware);
@@ -18,5 +19,6 @@ router.post('/', createTrip);
 router.put('/:id/dispatch', dispatchTrip);
 router.put('/:id/complete', completeTrip);
 router.put('/:id/cancel', cancelTrip);
+router.delete('/:id', deleteTrip);
 
-module.exports = router;
+module.exports = router;

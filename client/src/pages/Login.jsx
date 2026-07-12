@@ -4,9 +4,9 @@ import { useAuth } from '../context/AuthContext.jsx';
 import { isRequired, isValidEmail } from '../utils/validators';
 
 const DEMO_ACCOUNTS = [
-  { email: 'admin@fleetnova.com', role: 'Admin' },
-  { email: 'manager@fleetnova.com', role: 'Fleet Manager' },
-  { email: 'dispatcher@fleetnova.com', role: 'Dispatcher' },
+  { email: 'admin@fleetnova.com', password: 'fleet@123', role: 'Admin' },
+  { email: 'manager@fleetnova.com', password: 'fleet@123', role: 'Fleet Manager' },
+  { email: 'dispatcher@fleetnova.com', password: 'fleet@123', role: 'Dispatcher' },
 ];
 
 export default function Login() {
@@ -147,14 +147,14 @@ export default function Login() {
                 <button
                   key={acc.email}
                   type="button"
-                  onClick={() => setEmail(acc.email)}
+                  onClick={() => { setEmail(acc.email); setPassword(acc.password); }}
                   className="rounded-md border border-paper-200 bg-paper-50 px-2.5 py-1.5 text-xs font-medium text-ink-700 hover:border-navy-700 hover:text-ink-900"
                 >
                   {acc.role}
                 </button>
               ))}
             </div>
-            <p className="mt-2 text-xs text-ink-500">Fills the email — enter the matching seed password from your data set.</p>
+            <p className="mt-2 text-xs text-ink-500">Clicks fill both email & password — just hit <strong>Sign in</strong>.</p>
           </div>
         </div>
       </div>

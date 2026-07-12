@@ -30,7 +30,7 @@ function isExpiringSoon(dateStr) {
 
 export default function Drivers() {
   const { user } = useAuth();
-  const canManage = user?.role === 'FleetManager' || user?.role === 'SafetyOfficer';
+  const canManage = user?.role === 'Admin' || user?.role === 'FleetManager';
   const { toast, showToast } = useToast();
 
   const [drivers, setDrivers] = useState([]);

@@ -31,4 +31,11 @@ function update(id, updates) {
   return trips[index];
 }
 
-module.exports = { getAll, findById, create, update };
+function remove(id) {
+  const trips = getAll();
+  const filtered = trips.filter(t => t.id !== id);
+  saveAll(filtered);
+  return filtered.length !== trips.length;
+}
+
+module.exports = { getAll, findById, create, update, remove };

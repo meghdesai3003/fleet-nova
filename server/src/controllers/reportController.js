@@ -2,12 +2,14 @@ const Vehicle = require('../models/Vehicle');
 const Trip = require('../models/Trip');
 const FuelLog = require('../models/FuelLog');
 const Maintenance = require('../models/Maintenance');
+const Expense = require('../models/Expense');
 
 function getReports(req, res) {
   const vehicles = Vehicle.getAll();
   const trips = Trip.getAll();
   const fuelLogs = FuelLog.getAll();
   const maintenanceRecords = Maintenance.getAll();
+  const expenses = Expense.getAll();
 
   const report = vehicles.map(vehicle => {
     const vehicleTrips = trips.filter(t => t.vehicleId === vehicle.id && t.status === 'Completed');
@@ -16,13 +18,17 @@ function getReports(req, res) {
 
     const fuelCost = fuelLogs
       .filter(f => f.vehicleId === vehicle.id)
-      .reduce((sum, f) => sum + f.cost, 0);
+      .reduce((sum, f) => sum + (Number(f.cost) || 0), 0);
 
     const maintenanceCost = maintenanceRecords
       .filter(m => m.vehicleId === vehicle.id)
-      .reduce((sum, m) => sum + m.cost, 0);
+      .reduce((sum, m) => sum + (Number(m.cost) || 0), 0);
 
-    const operationalCost = fuelCost + maintenanceCost;
+    const expenseCost = expenses
+      .filter(e => e.vehicleId === vehicle.id)
+      .reduce((sum, e) => sum + (Number(e.amount) || 0), 0);
+
+    const operationalCost = fuelCost + maintenanceCost + expenseCost;
     const fuelEfficiency = totalFuelConsumed > 0 ? (totalDistance / totalFuelConsumed).toFixed(2) : null;
 
     // Revenue = freight billed on completed trips for this vehicle
@@ -48,4 +54,4 @@ function getReports(req, res) {
   res.json({ vehicles: report, fleetUtilization: `${fleetUtilization}%` });
 }
 
-module.exports = { getReports };
+module.exports = { getReports };

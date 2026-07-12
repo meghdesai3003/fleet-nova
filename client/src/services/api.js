@@ -63,6 +63,7 @@ export const tripApi = {
   dispatch: (id) => api.put(`/trips/${id}/dispatch`),
   complete: (id, data) => api.put(`/trips/${id}/complete`, data),
   cancel: (id) => api.put(`/trips/${id}/cancel`),
+  remove: (id) => api.delete(`/trips/${id}`),
 };
 
 // ---- Maintenance ----

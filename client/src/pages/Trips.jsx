@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { Plus, Search, Send, CheckCheck, XCircle, MapPin } from 'lucide-react';
+import { Plus, Search, Send, CheckCheck, XCircle, MapPin, Trash2 } from 'lucide-react';
 import { tripApi, vehicleApi, driverApi, apiErrorMessage } from '../services/api';
 import { PageHeader, Spinner, EmptyState, ErrorNote } from '../components/UI.jsx';
 import StatusBadge from '../components/StatusBadge.jsx';
@@ -134,6 +134,19 @@ export default function Trips() {
     }
   }
 
+  async function handleDelete(trip) {
+    setActioningId(trip.id);
+    try {
+      await tripApi.remove(trip.id);
+      showToast('Draft trip deleted');
+      load();
+    } catch (err) {
+      showToast(apiErrorMessage(err, 'Could not delete trip.'), 'error');
+    } finally {
+      setActioningId(null);
+    }
+  }
+
   function openComplete(trip) {
     setCompleteTarget(trip);
     setCompleteForm({ finalOdometer: vehicleById[trip.vehicleId]?.odometer || '', fuelConsumed: '' });
@@ -241,9 +254,14 @@ export default function Trips() {
               {(t.status === 'Draft' || t.status === 'Dispatched') && (
                 <div className="mt-4 flex gap-2 border-t border-paper-200 pt-3">
                   {t.status === 'Draft' && (
-                    <button onClick={() => handleDispatch(t)} disabled={actioningId === t.id} className="btn-primary !py-1.5 text-xs">
-                      <Send size={13} /> Dispatch
-                    </button>
+                    <>
+                      <button onClick={() => handleDispatch(t)} disabled={actioningId === t.id} className="btn-primary !py-1.5 text-xs">
+                        <Send size={13} /> Dispatch
+                      </button>
+                      <button onClick={() => handleDelete(t)} disabled={actioningId === t.id} className="btn-danger !py-1.5 text-xs">
+                        <Trash2 size={13} /> Delete
+                      </button>
+                    </>
                   )}
                   {t.status === 'Dispatched' && (
                     <>

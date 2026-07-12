@@ -90,4 +90,15 @@ function cancelTrip(req, res) {
   res.json(updated);
 }
 
-module.exports = { getTrips, getTrip, createTrip, dispatchTrip, completeTrip, cancelTrip };
+// Delete a Draft trip permanently
+function deleteTrip(req, res) {
+  const trip = Trip.findById(req.params.id);
+  if (!trip) return res.status(404).json({ message: 'Trip not found' });
+  if (trip.status !== 'Draft') {
+    return res.status(400).json({ message: 'Only Draft trips can be deleted' });
+  }
+  Trip.remove(trip.id);
+  res.json({ message: 'Draft trip deleted' });
+}
+
+module.exports = { getTrips, getTrip, createTrip, dispatchTrip, completeTrip, cancelTrip, deleteTrip };
