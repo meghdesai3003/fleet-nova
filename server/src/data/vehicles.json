@@ -1,1 +1,17 @@
-[]
+[
+  {"id":"VEH001","registration":"GJ01AB1001","type":"Truck","model":"Tata Prima","capacity":25000,"status":"Available","driverId":"DRV001"},
+  {"id":"VEH002","registration":"MH12CD1002","type":"Truck","model":"Ashok Leyland 4825","capacity":28000,"status":"On Trip","driverId":"DRV002"},
+  {"id":"VEH003","registration":"RJ14EF1003","type":"Mini Truck","model":"Mahindra Furio","capacity":8000,"status":"Available","driverId":"DRV003"},
+  {"id":"VEH004","registration":"DL05GH1004","type":"Van","model":"Force Traveller","capacity":3500,"status":"Available","driverId":"DRV004"},
+  {"id":"VEH005","registration":"UP32IJ1005","type":"Truck","model":"BharatBenz 2823","capacity":26000,"status":"Maintenance","driverId":null},
+  {"id":"VEH006","registration":"GJ18KL1006","type":"Pickup","model":"Mahindra Bolero Pickup","capacity":1500,"status":"Available","driverId":"DRV006"},
+  {"id":"VEH007","registration":"HR26MN1007","type":"Truck","model":"Eicher Pro 6048","capacity":24000,"status":"On Trip","driverId":"DRV007"},
+  {"id":"VEH008","registration":"GJ27OP1008","type":"Mini Truck","model":"Tata Intra V50","capacity":1700,"status":"Available","driverId":"DRV008"},
+  {"id":"VEH009","registration":"MH04QR1009","type":"Van","model":"Maruti Eeco Cargo","capacity":800,"status":"Available","driverId":"DRV009"},
+  {"id":"VEH010","registration":"RJ19ST1010","type":"Truck","model":"Volvo FMX","capacity":30000,"status":"Maintenance","driverId":null},
+  {"id":"VEH011","registration":"GJ02UV1011","type":"Truck","model":"Tata Signa","capacity":27000,"status":"Available","driverId":"DRV011"},
+  {"id":"VEH012","registration":"GJ05WX1012","type":"Pickup","model":"Isuzu D-Max","capacity":1200,"status":"Available","driverId":"DRV012"},
+  {"id":"VEH013","registration":"DL08YZ1013","type":"Truck","model":"BharatBenz 3528","capacity":32000,"status":"On Trip","driverId":"DRV013"},
+  {"id":"VEH014","registration":"MP09AA1014","type":"Mini Truck","model":"Ashok Dost+","capacity":1500,"status":"Available","driverId":"DRV014"},
+  {"id":"VEH015","registration":"GJ06BB1015","type":"Van","model":"Force Urbania","capacity":2500,"status":"Available","driverId":"DRV015"}
+]

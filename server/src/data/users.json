@@ -1,1 +1,119 @@
-[]
+[
+  {
+    "id": "USR001",
+    "name": "Aman Patel",
+    "email": "admin@fleetnova.com",
+    "password": "admin123",
+    "role": "Admin"
+  },
+  {
+    "id": "USR002",
+    "name": "Rahul Shah",
+    "email": "manager@fleetnova.com",
+    "password": "manager123",
+    "role": "Fleet Manager"
+  },
+  {
+    "id": "USR003",
+    "name": "Priya Mehta",
+    "email": "dispatcher@fleetnova.com",
+    "password": "dispatch123",
+    "role": "Dispatcher"
+  },
+  {
+    "id": "USR004",
+    "name": "Raj Patel",
+    "email": "raj.patel@fleetnova.com",
+    "password": "driver123",
+    "role": "Driver",
+    "driverId": "DRV001"
+  },
+  {
+    "id": "USR005",
+    "name": "Amit Sharma",
+    "email": "amit.sharma@fleetnova.com",
+    "password": "driver123",
+    "role": "Driver",
+    "driverId": "DRV002"
+  },
+  {
+    "id": "USR006",
+    "name": "Karan Singh",
+    "email": "karan.singh@fleetnova.com",
+    "password": "driver123",
+    "role": "Driver",
+    "driverId": "DRV003"
+  },
+  {
+    "id": "USR007",
+    "name": "Neha Verma",
+    "email": "neha.verma@fleetnova.com",
+    "password": "driver123",
+    "role": "Driver",
+    "driverId": "DRV004"
+  },
+  {
+    "id": "USR008",
+    "name": "Rohan Mehta",
+    "email": "rohan.mehta@fleetnova.com",
+    "password": "driver123",
+    "role": "Driver",
+    "driverId": "DRV006"
+  },
+  {
+    "id": "USR009",
+    "name": "Vikas Kumar",
+    "email": "vikas.kumar@fleetnova.com",
+    "password": "driver123",
+    "role": "Driver",
+    "driverId": "DRV007"
+  },
+  {
+    "id": "USR010",
+    "name": "Arjun Joshi",
+    "email": "arjun.joshi@fleetnova.com",
+    "password": "driver123",
+    "role": "Driver",
+    "driverId": "DRV008"
+  },
+  {
+    "id": "USR011",
+    "name": "Manish Shah",
+    "email": "manish.shah@fleetnova.com",
+    "password": "driver123",
+    "role": "Driver",
+    "driverId": "DRV009"
+  },
+  {
+    "id": "USR012",
+    "name": "Harsh Trivedi",
+    "email": "harsh.trivedi@fleetnova.com",
+    "password": "driver123",
+    "role": "Driver",
+    "driverId": "DRV011"
+  },
+  {
+    "id": "USR013",
+    "name": "Yash Desai",
+    "email": "yash.desai@fleetnova.com",
+    "password": "driver123",
+    "role": "Driver",
+    "driverId": "DRV012"
+  },
+  {
+    "id": "USR014",
+    "name": "Rakesh Gupta",
+    "email": "rakesh.gupta@fleetnova.com",
+    "password": "driver123",
+    "role": "Driver",
+    "driverId": "DRV013"
+  },
+  {
+    "id": "USR015",
+    "name": "Mohit Jain",
+    "email": "mohit.jain@fleetnova.com",
+    "password": "driver123",
+    "role": "Driver",
+    "driverId": "DRV014"
+  }
+]
