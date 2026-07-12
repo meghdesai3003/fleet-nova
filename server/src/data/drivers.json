@@ -1,1 +1,152 @@
-[]
+[
+  {
+    "id": "DRV001",
+    "name": "Raj Patel",
+    "licenseNumber": "GJ01DL1234",
+    "phone": "9876543201",
+    "email": "raj.patel@fleetnova.com",
+    "experience": 8,
+    "status": "Available",
+    "assignedVehicle": "VEH001"
+  },
+  {
+    "id": "DRV002",
+    "name": "Amit Sharma",
+    "licenseNumber": "MH12DL2345",
+    "phone": "9876543202",
+    "email": "amit.sharma@fleetnova.com",
+    "experience": 5,
+    "status": "On Trip",
+    "assignedVehicle": "VEH002"
+  },
+  {
+    "id": "DRV003",
+    "name": "Karan Singh",
+    "licenseNumber": "RJ14DL3456",
+    "phone": "9876543203",
+    "email": "karan.singh@fleetnova.com",
+    "experience": 10,
+    "status": "Available",
+    "assignedVehicle": "VEH003"
+  },
+  {
+    "id": "DRV004",
+    "name": "Neha Verma",
+    "licenseNumber": "DL05DL4567",
+    "phone": "9876543204",
+    "email": "neha.verma@fleetnova.com",
+    "experience": 6,
+    "status": "Available",
+    "assignedVehicle": "VEH004"
+  },
+  {
+    "id": "DRV005",
+    "name": "Suresh Yadav",
+    "licenseNumber": "UP32DL5678",
+    "phone": "9876543205",
+    "email": "suresh.yadav@fleetnova.com",
+    "experience": 12,
+    "status": "On Leave",
+    "assignedVehicle": null
+  },
+  {
+    "id": "DRV006",
+    "name": "Rohan Mehta",
+    "licenseNumber": "GJ18DL6789",
+    "phone": "9876543206",
+    "email": "rohan.mehta@fleetnova.com",
+    "experience": 4,
+    "status": "Available",
+    "assignedVehicle": "VEH006"
+  },
+  {
+    "id": "DRV007",
+    "name": "Vikas Kumar",
+    "licenseNumber": "HR26DL7890",
+    "phone": "9876543207",
+    "email": "vikas.kumar@fleetnova.com",
+    "experience": 9,
+    "status": "On Trip",
+    "assignedVehicle": "VEH007"
+  },
+  {
+    "id": "DRV008",
+    "name": "Arjun Joshi",
+    "licenseNumber": "GJ27DL8901",
+    "phone": "9876543208",
+    "email": "arjun.joshi@fleetnova.com",
+    "experience": 7,
+    "status": "Available",
+    "assignedVehicle": "VEH008"
+  },
+  {
+    "id": "DRV009",
+    "name": "Manish Shah",
+    "licenseNumber": "MH04DL9012",
+    "phone": "9876543209",
+    "email": "manish.shah@fleetnova.com",
+    "experience": 3,
+    "status": "Available",
+    "assignedVehicle": "VEH009"
+  },
+  {
+    "id": "DRV010",
+    "name": "Deepak Chauhan",
+    "licenseNumber": "RJ19DL1122",
+    "phone": "9876543210",
+    "email": "deepak.chauhan@fleetnova.com",
+    "experience": 11,
+    "status": "Maintenance Duty",
+    "assignedVehicle": null
+  },
+  {
+    "id": "DRV011",
+    "name": "Harsh Trivedi",
+    "licenseNumber": "GJ02DL2211",
+    "phone": "9876543211",
+    "email": "harsh.trivedi@fleetnova.com",
+    "experience": 6,
+    "status": "Available",
+    "assignedVehicle": "VEH011"
+  },
+  {
+    "id": "DRV012",
+    "name": "Yash Desai",
+    "licenseNumber": "GJ05DL3322",
+    "phone": "9876543212",
+    "email": "yash.desai@fleetnova.com",
+    "experience": 2,
+    "status": "Available",
+    "assignedVehicle": "VEH012"
+  },
+  {
+    "id": "DRV013",
+    "name": "Rakesh Gupta",
+    "licenseNumber": "DL08DL4433",
+    "phone": "9876543213",
+    "email": "rakesh.gupta@fleetnova.com",
+    "experience": 15,
+    "status": "On Trip",
+    "assignedVehicle": "VEH013"
+  },
+  {
+    "id": "DRV014",
+    "name": "Mohit Jain",
+    "licenseNumber": "MP09DL5544",
+    "phone": "9876543214",
+    "email": "mohit.jain@fleetnova.com",
+    "experience": 5,
+    "status": "Available",
+    "assignedVehicle": "VEH014"
+  },
+  {
+    "id": "DRV015",
+    "name": "Nitin Solanki",
+    "licenseNumber": "GJ06DL6655",
+    "phone": "9876543215",
+    "email": "nitin.solanki@fleetnova.com",
+    "experience": 9,
+    "status": "Available",
+    "assignedVehicle": "VEH015"
+  }
+]
