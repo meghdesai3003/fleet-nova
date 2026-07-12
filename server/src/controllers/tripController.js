@@ -13,7 +13,7 @@ function getTrip(req, res) {
 
 // Create trip as Draft — no status changes yet
 function createTrip(req, res) {
-  const { source, destination, vehicleId, driverId, cargoWeight, plannedDistance } = req.body;
+  const { source, destination, vehicleId, driverId, cargoWeight, plannedDistance, freightRevenue } = req.body;
 
   const validation = businessRules.validateTripCreation({ vehicleId, driverId, cargoWeight });
   if (!validation.valid) {
@@ -28,6 +28,7 @@ function createTrip(req, res) {
     driverId,
     cargoWeight,
     plannedDistance,
+    freightRevenue: freightRevenue || 0, // amount billed to the customer for this trip
     status: 'Draft',
   };
 

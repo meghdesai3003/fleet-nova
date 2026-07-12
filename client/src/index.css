@@ -1,0 +1,94 @@
+/* stylelint-disable at-rule-no-unknown */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* stylelint-enable at-rule-no-unknown */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    @apply bg-paper-50 text-ink-900 font-body;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+  :focus-visible {
+    outline: 2px solid #EFA512;
+    outline-offset: 2px;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #D8DCD1;
+    border-radius: 999px;
+  }
+}
+
+@layer components {
+  /* dashed route-line divider used as the app's signature motif */
+  .route-rule {
+    height: 2px;
+    background-image: repeating-linear-gradient(
+      90deg,
+      currentColor 0,
+      currentColor 6px,
+      transparent 6px,
+      transparent 14px
+    );
+    opacity: 0.35;
+  }
+
+  .card {
+    @apply bg-white rounded-xl border border-paper-200 shadow-panel;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-semibold transition-colors duration-150 disabled:opacity-40 disabled:cursor-not-allowed;
+  }
+  .btn-primary {
+    @apply btn bg-navy-900 text-white hover:bg-navy-800;
+  }
+  .btn-accent {
+    @apply btn bg-amber-500 text-navy-950 hover:bg-amber-400;
+  }
+  .btn-ghost {
+    @apply btn bg-transparent text-ink-700 hover:bg-paper-100;
+  }
+  .btn-danger {
+    @apply btn bg-signal-rust/10 text-signal-rust hover:bg-signal-rust/20;
+  }
+
+  .field-label {
+    @apply block text-xs font-semibold uppercase tracking-wide text-ink-500 mb-1.5;
+  }
+  .field-input {
+    @apply w-full rounded-lg border border-paper-200 bg-paper-50 px-3 py-2 text-sm text-ink-900 placeholder:text-ink-500/60 focus:border-navy-700 focus:bg-white focus:outline-none transition-colors;
+  }
+
+  .badge {
+    @apply inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-semibold whitespace-nowrap;
+  }
+
+  .plate {
+    @apply font-mono text-xs tracking-wider bg-navy-950 text-paper-50 rounded px-2 py-1 border-2 border-paper-100;
+  }
+}

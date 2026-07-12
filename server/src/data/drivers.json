@@ -1,152 +1,152 @@
 [
   {
-    "id": "DRV001",
+    "id": "d1",
     "name": "Raj Patel",
     "licenseNumber": "GJ01DL1234",
-    "phone": "9876543201",
-    "email": "raj.patel@fleetnova.com",
-    "experience": 8,
-    "status": "Available",
-    "assignedVehicle": "VEH001"
+    "licenseCategory": "HMV",
+    "licenseExpiryDate": "2028-05-12",
+    "contactNumber": "9876543201",
+    "safetyScore": 94,
+    "status": "Available"
   },
   {
-    "id": "DRV002",
+    "id": "d2",
     "name": "Amit Sharma",
     "licenseNumber": "MH12DL2345",
-    "phone": "9876543202",
-    "email": "amit.sharma@fleetnova.com",
-    "experience": 5,
-    "status": "On Trip",
-    "assignedVehicle": "VEH002"
+    "licenseCategory": "HMV",
+    "licenseExpiryDate": "2027-11-20",
+    "contactNumber": "9876543202",
+    "safetyScore": 89,
+    "status": "On Trip"
   },
   {
-    "id": "DRV003",
+    "id": "d3",
     "name": "Karan Singh",
     "licenseNumber": "RJ14DL3456",
-    "phone": "9876543203",
-    "email": "karan.singh@fleetnova.com",
-    "experience": 10,
-    "status": "Available",
-    "assignedVehicle": "VEH003"
+    "licenseCategory": "HMV",
+    "licenseExpiryDate": "2028-02-15",
+    "contactNumber": "9876543203",
+    "safetyScore": 96,
+    "status": "Available"
   },
   {
-    "id": "DRV004",
+    "id": "d4",
     "name": "Neha Verma",
     "licenseNumber": "DL05DL4567",
-    "phone": "9876543204",
-    "email": "neha.verma@fleetnova.com",
-    "experience": 6,
-    "status": "Available",
-    "assignedVehicle": "VEH004"
+    "licenseCategory": "LMV",
+    "licenseExpiryDate": "2027-08-10",
+    "contactNumber": "9876543204",
+    "safetyScore": 91,
+    "status": "Available"
   },
   {
-    "id": "DRV005",
+    "id": "d5",
     "name": "Suresh Yadav",
     "licenseNumber": "UP32DL5678",
-    "phone": "9876543205",
-    "email": "suresh.yadav@fleetnova.com",
-    "experience": 12,
-    "status": "On Leave",
-    "assignedVehicle": null
+    "licenseCategory": "HMV",
+    "licenseExpiryDate": "2026-10-18",
+    "contactNumber": "9876543205",
+    "safetyScore": 83,
+    "status": "Off Duty"
   },
   {
-    "id": "DRV006",
+    "id": "d6",
     "name": "Rohan Mehta",
     "licenseNumber": "GJ18DL6789",
-    "phone": "9876543206",
-    "email": "rohan.mehta@fleetnova.com",
-    "experience": 4,
-    "status": "Available",
-    "assignedVehicle": "VEH006"
+    "licenseCategory": "LMV",
+    "licenseExpiryDate": "2028-03-28",
+    "contactNumber": "9876543206",
+    "safetyScore": 88,
+    "status": "Available"
   },
   {
-    "id": "DRV007",
+    "id": "d7",
     "name": "Vikas Kumar",
     "licenseNumber": "HR26DL7890",
-    "phone": "9876543207",
-    "email": "vikas.kumar@fleetnova.com",
-    "experience": 9,
-    "status": "On Trip",
-    "assignedVehicle": "VEH007"
+    "licenseCategory": "HMV",
+    "licenseExpiryDate": "2027-06-30",
+    "contactNumber": "9876543207",
+    "safetyScore": 90,
+    "status": "On Trip"
   },
   {
-    "id": "DRV008",
+    "id": "d8",
     "name": "Arjun Joshi",
     "licenseNumber": "GJ27DL8901",
-    "phone": "9876543208",
-    "email": "arjun.joshi@fleetnova.com",
-    "experience": 7,
-    "status": "Available",
-    "assignedVehicle": "VEH008"
+    "licenseCategory": "LMV",
+    "licenseExpiryDate": "2028-01-22",
+    "contactNumber": "9876543208",
+    "safetyScore": 87,
+    "status": "Available"
   },
   {
-    "id": "DRV009",
+    "id": "d9",
     "name": "Manish Shah",
     "licenseNumber": "MH04DL9012",
-    "phone": "9876543209",
-    "email": "manish.shah@fleetnova.com",
-    "experience": 3,
-    "status": "Available",
-    "assignedVehicle": "VEH009"
+    "licenseCategory": "LMV",
+    "licenseExpiryDate": "2027-12-14",
+    "contactNumber": "9876543209",
+    "safetyScore": 86,
+    "status": "Available"
   },
   {
-    "id": "DRV010",
+    "id": "d10",
     "name": "Deepak Chauhan",
     "licenseNumber": "RJ19DL1122",
-    "phone": "9876543210",
-    "email": "deepak.chauhan@fleetnova.com",
-    "experience": 11,
-    "status": "Maintenance Duty",
-    "assignedVehicle": null
+    "licenseCategory": "HMV",
+    "licenseExpiryDate": "2027-09-16",
+    "contactNumber": "9876543210",
+    "safetyScore": 84,
+    "status": "Off Duty"
   },
   {
-    "id": "DRV011",
+    "id": "d11",
     "name": "Harsh Trivedi",
     "licenseNumber": "GJ02DL2211",
-    "phone": "9876543211",
-    "email": "harsh.trivedi@fleetnova.com",
-    "experience": 6,
-    "status": "Available",
-    "assignedVehicle": "VEH011"
+    "licenseCategory": "HMV",
+    "licenseExpiryDate": "2028-04-08",
+    "contactNumber": "9876543211",
+    "safetyScore": 92,
+    "status": "Available"
   },
   {
-    "id": "DRV012",
+    "id": "d12",
     "name": "Yash Desai",
     "licenseNumber": "GJ05DL3322",
-    "phone": "9876543212",
-    "email": "yash.desai@fleetnova.com",
-    "experience": 2,
-    "status": "Available",
-    "assignedVehicle": "VEH012"
+    "licenseCategory": "LMV",
+    "licenseExpiryDate": "2028-06-18",
+    "contactNumber": "9876543212",
+    "safetyScore": 85,
+    "status": "Available"
   },
   {
-    "id": "DRV013",
+    "id": "d13",
     "name": "Rakesh Gupta",
     "licenseNumber": "DL08DL4433",
-    "phone": "9876543213",
-    "email": "rakesh.gupta@fleetnova.com",
-    "experience": 15,
-    "status": "On Trip",
-    "assignedVehicle": "VEH013"
+    "licenseCategory": "HMV",
+    "licenseExpiryDate": "2027-07-01",
+    "contactNumber": "9876543213",
+    "safetyScore": 93,
+    "status": "On Trip"
   },
   {
-    "id": "DRV014",
+    "id": "d14",
     "name": "Mohit Jain",
     "licenseNumber": "MP09DL5544",
-    "phone": "9876543214",
-    "email": "mohit.jain@fleetnova.com",
-    "experience": 5,
-    "status": "Available",
-    "assignedVehicle": "VEH014"
+    "licenseCategory": "LMV",
+    "licenseExpiryDate": "2028-09-12",
+    "contactNumber": "9876543214",
+    "safetyScore": 89,
+    "status": "Available"
   },
   {
-    "id": "DRV015",
+    "id": "d15",
     "name": "Nitin Solanki",
     "licenseNumber": "GJ06DL6655",
-    "phone": "9876543215",
-    "email": "nitin.solanki@fleetnova.com",
-    "experience": 9,
-    "status": "Available",
-    "assignedVehicle": "VEH015"
+    "licenseCategory": "HMV",
+    "licenseExpiryDate": "2027-05-30",
+    "contactNumber": "9876543215",
+    "safetyScore": 91,
+    "status": "Available"
   }
 ]

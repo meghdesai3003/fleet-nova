@@ -25,8 +25,8 @@ function getReports(req, res) {
     const operationalCost = fuelCost + maintenanceCost;
     const fuelEfficiency = totalFuelConsumed > 0 ? (totalDistance / totalFuelConsumed).toFixed(2) : null;
 
-    // Revenue isn't in the data model yet, so ROI uses 0 revenue as a placeholder
-    const revenue = 0;
+    // Revenue = freight billed on completed trips for this vehicle
+    const revenue = vehicleTrips.reduce((sum, t) => sum + (t.freightRevenue || 0), 0);
     const roi = vehicle.acquisitionCost > 0
       ? ((revenue - operationalCost) / vehicle.acquisitionCost).toFixed(4)
       : null;
@@ -35,6 +35,7 @@ function getReports(req, res) {
       vehicleId: vehicle.id,
       vehicleName: vehicle.name,
       fuelEfficiency,
+      revenue,
       operationalCost,
       roi,
     };

@@ -1,182 +1,122 @@
 [
   {
-    "id": "MNT001",
-    "vehicleId": "VEH005",
+    "id": "m1",
+    "vehicleId": "v5",
     "type": "Engine Service",
-    "description": "Complete engine inspection and oil replacement",
-    "serviceCenter": "Tata Service Center Ahmedabad",
-    "startDate": "2026-07-09",
-    "expectedCompletion": "2026-07-14",
-    "completedDate": null,
+    "date": "2026-07-09",
     "cost": 18500,
-    "status": "In Progress"
+    "status": "Active"
   },
   {
-    "id": "MNT002",
-    "vehicleId": "VEH010",
+    "id": "m2",
+    "vehicleId": "v10",
     "type": "Brake Replacement",
-    "description": "Replace brake pads and brake discs",
-    "serviceCenter": "Volvo Trucks Service",
-    "startDate": "2026-07-10",
-    "expectedCompletion": "2026-07-15",
-    "completedDate": null,
+    "date": "2026-07-10",
     "cost": 32000,
-    "status": "In Progress"
+    "status": "Active"
   },
   {
-    "id": "MNT003",
-    "vehicleId": "VEH001",
+    "id": "m3",
+    "vehicleId": "v1",
     "type": "Oil Change",
-    "description": "Routine engine oil and filter replacement",
-    "serviceCenter": "FleetNova Workshop",
-    "startDate": "2026-06-18",
-    "expectedCompletion": "2026-06-18",
-    "completedDate": "2026-06-18",
+    "date": "2026-06-18",
     "cost": 4200,
-    "status": "Completed"
+    "status": "Closed"
   },
   {
-    "id": "MNT004",
-    "vehicleId": "VEH002",
+    "id": "m4",
+    "vehicleId": "v2",
     "type": "Tyre Rotation",
-    "description": "Tyre alignment and rotation",
-    "serviceCenter": "JK Tyre Care",
-    "startDate": "2026-06-25",
-    "expectedCompletion": "2026-06-25",
-    "completedDate": "2026-06-25",
+    "date": "2026-06-25",
     "cost": 2800,
-    "status": "Completed"
+    "status": "Closed"
   },
   {
-    "id": "MNT005",
-    "vehicleId": "VEH003",
+    "id": "m5",
+    "vehicleId": "v3",
     "type": "Battery Replacement",
-    "description": "Replace old battery with new unit",
-    "serviceCenter": "Mahindra Service",
-    "startDate": "2026-06-30",
-    "expectedCompletion": "2026-06-30",
-    "completedDate": "2026-06-30",
+    "date": "2026-06-30",
     "cost": 8500,
-    "status": "Completed"
+    "status": "Closed"
   },
   {
-    "id": "MNT006",
-    "vehicleId": "VEH004",
+    "id": "m6",
+    "vehicleId": "v4",
     "type": "AC Service",
-    "description": "Air conditioning maintenance",
-    "serviceCenter": "Force Motors Service",
-    "startDate": "2026-07-02",
-    "expectedCompletion": "2026-07-02",
-    "completedDate": "2026-07-02",
+    "date": "2026-07-02",
     "cost": 3500,
-    "status": "Completed"
+    "status": "Closed"
   },
   {
-    "id": "MNT007",
-    "vehicleId": "VEH006",
+    "id": "m7",
+    "vehicleId": "v6",
     "type": "Wheel Alignment",
-    "description": "Complete wheel balancing and alignment",
-    "serviceCenter": "Wheel Care Ahmedabad",
-    "startDate": "2026-06-28",
-    "expectedCompletion": "2026-06-28",
-    "completedDate": "2026-06-28",
+    "date": "2026-06-28",
     "cost": 1800,
-    "status": "Completed"
+    "status": "Closed"
   },
   {
-    "id": "MNT008",
-    "vehicleId": "VEH007",
+    "id": "m8",
+    "vehicleId": "v7",
     "type": "Transmission Check",
-    "description": "Routine gearbox inspection",
-    "serviceCenter": "Eicher Service Center",
-    "startDate": "2026-05-20",
-    "expectedCompletion": "2026-05-21",
-    "completedDate": "2026-05-21",
+    "date": "2026-05-20",
     "cost": 9200,
-    "status": "Completed"
+    "status": "Closed"
   },
   {
-    "id": "MNT009",
-    "vehicleId": "VEH008",
+    "id": "m9",
+    "vehicleId": "v8",
     "type": "Suspension Repair",
-    "description": "Replace front suspension components",
-    "serviceCenter": "Tata Service",
-    "startDate": "2026-06-15",
-    "expectedCompletion": "2026-06-16",
-    "completedDate": "2026-06-16",
+    "date": "2026-06-15",
     "cost": 7600,
-    "status": "Completed"
+    "status": "Closed"
   },
   {
-    "id": "MNT010",
-    "vehicleId": "VEH009",
+    "id": "m10",
+    "vehicleId": "v9",
     "type": "Oil Change",
-    "description": "Routine maintenance",
-    "serviceCenter": "Maruti Service",
-    "startDate": "2026-07-01",
-    "expectedCompletion": "2026-07-01",
-    "completedDate": "2026-07-01",
+    "date": "2026-07-01",
     "cost": 2500,
-    "status": "Completed"
+    "status": "Closed"
   },
   {
-    "id": "MNT011",
-    "vehicleId": "VEH011",
+    "id": "m11",
+    "vehicleId": "v11",
     "type": "Coolant Replacement",
-    "description": "Replace coolant and inspect radiator",
-    "serviceCenter": "Tata Authorized Workshop",
-    "startDate": "2026-06-22",
-    "expectedCompletion": "2026-06-22",
-    "completedDate": "2026-06-22",
+    "date": "2026-06-22",
     "cost": 3900,
-    "status": "Completed"
+    "status": "Closed"
   },
   {
-    "id": "MNT012",
-    "vehicleId": "VEH012",
+    "id": "m12",
+    "vehicleId": "v12",
     "type": "General Inspection",
-    "description": "Quarterly safety inspection",
-    "serviceCenter": "FleetNova Workshop",
-    "startDate": "2026-06-12",
-    "expectedCompletion": "2026-06-12",
-    "completedDate": "2026-06-12",
+    "date": "2026-06-12",
     "cost": 2100,
-    "status": "Completed"
+    "status": "Closed"
   },
   {
-    "id": "MNT013",
-    "vehicleId": "VEH013",
+    "id": "m13",
+    "vehicleId": "v13",
     "type": "Clutch Service",
-    "description": "Inspect and replace clutch plate",
-    "serviceCenter": "BharatBenz Service",
-    "startDate": "2026-05-30",
-    "expectedCompletion": "2026-05-31",
-    "completedDate": "2026-05-31",
+    "date": "2026-05-30",
     "cost": 14500,
-    "status": "Completed"
+    "status": "Closed"
   },
   {
-    "id": "MNT014",
-    "vehicleId": "VEH014",
+    "id": "m14",
+    "vehicleId": "v14",
     "type": "Headlight Replacement",
-    "description": "Replace damaged LED headlight",
-    "serviceCenter": "Ashok Leyland Service",
-    "startDate": "2026-06-26",
-    "expectedCompletion": "2026-06-26",
-    "completedDate": "2026-06-26",
+    "date": "2026-06-26",
     "cost": 2800,
-    "status": "Completed"
+    "status": "Closed"
   },
   {
-    "id": "MNT015",
-    "vehicleId": "VEH015",
+    "id": "m15",
+    "vehicleId": "v15",
     "type": "Brake Inspection",
-    "description": "Routine brake safety check",
-    "serviceCenter": "Force Motors Workshop",
-    "startDate": "2026-06-29",
-    "expectedCompletion": "2026-06-29",
-    "completedDate": "2026-06-29",
+    "date": "2026-06-29",
     "cost": 3100,
-    "status": "Completed"
+    "status": "Closed"
   }
 ]
