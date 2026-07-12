@@ -1,202 +1,142 @@
 [
   {
-    "id": "EXP001",
-    "tripId": "TRP001",
-    "vehicleId": "VEH002",
-    "category": "Toll",
-    "description": "Expressway toll charges",
+    "id": "e1",
+    "vehicleId": "v2",
+    "type": "Toll",
     "amount": 650,
-    "date": "2026-07-12",
-    "status": "Paid"
+    "date": "2026-07-12"
   },
   {
-    "id": "EXP002",
-    "tripId": "TRP002",
-    "vehicleId": "VEH007",
-    "category": "Food",
-    "description": "Driver meal allowance",
+    "id": "e2",
+    "vehicleId": "v7",
+    "type": "Food",
     "amount": 350,
-    "date": "2026-07-11",
-    "status": "Paid"
+    "date": "2026-07-11"
   },
   {
-    "id": "EXP003",
-    "tripId": "TRP003",
-    "vehicleId": "VEH013",
-    "category": "Parking",
-    "description": "Warehouse parking fee",
+    "id": "e3",
+    "vehicleId": "v13",
+    "type": "Parking",
     "amount": 220,
-    "date": "2026-07-10",
-    "status": "Paid"
+    "date": "2026-07-10"
   },
   {
-    "id": "EXP004",
-    "tripId": "TRP004",
-    "vehicleId": "VEH001",
-    "category": "Toll",
-    "description": "National Highway toll",
+    "id": "e4",
+    "vehicleId": "v1",
+    "type": "Toll",
     "amount": 480,
-    "date": "2026-07-14",
-    "status": "Pending"
+    "date": "2026-07-14"
   },
   {
-    "id": "EXP005",
-    "tripId": "TRP005",
-    "vehicleId": "VEH003",
-    "category": "Loading",
-    "description": "Loading labour charges",
+    "id": "e5",
+    "vehicleId": "v3",
+    "type": "Loading",
     "amount": 900,
-    "date": "2026-07-13",
-    "status": "Paid"
+    "date": "2026-07-13"
   },
   {
-    "id": "EXP006",
-    "tripId": "TRP006",
-    "vehicleId": "VEH004",
-    "category": "Parking",
-    "description": "Hospital unloading parking",
+    "id": "e6",
+    "vehicleId": "v4",
+    "type": "Parking",
     "amount": 180,
-    "date": "2026-07-12",
-    "status": "Paid"
+    "date": "2026-07-12"
   },
   {
-    "id": "EXP007",
-    "tripId": "TRP007",
-    "vehicleId": "VEH006",
-    "category": "Food",
-    "description": "Driver lunch reimbursement",
+    "id": "e7",
+    "vehicleId": "v6",
+    "type": "Food",
     "amount": 250,
-    "date": "2026-07-12",
-    "status": "Paid"
+    "date": "2026-07-12"
   },
   {
-    "id": "EXP008",
-    "tripId": "TRP008",
-    "vehicleId": "VEH008",
-    "category": "Toll",
-    "description": "State highway toll",
+    "id": "e8",
+    "vehicleId": "v8",
+    "type": "Toll",
     "amount": 560,
-    "date": "2026-07-13",
-    "status": "Pending"
+    "date": "2026-07-13"
   },
   {
-    "id": "EXP009",
-    "tripId": "TRP009",
-    "vehicleId": "VEH009",
-    "category": "Parking",
-    "description": "Market parking fee",
+    "id": "e9",
+    "vehicleId": "v9",
+    "type": "Parking",
     "amount": 150,
-    "date": "2026-07-11",
-    "status": "Paid"
+    "date": "2026-07-11"
   },
   {
-    "id": "EXP010",
-    "tripId": "TRP010",
-    "vehicleId": "VEH011",
-    "category": "Permit",
-    "description": "Interstate transport permit",
+    "id": "e10",
+    "vehicleId": "v11",
+    "type": "Permit",
     "amount": 1800,
-    "date": "2026-07-15",
-    "status": "Paid"
+    "date": "2026-07-15"
   },
   {
-    "id": "EXP011",
-    "tripId": "TRP011",
-    "vehicleId": "VEH012",
-    "category": "Food",
-    "description": "Driver refreshments",
+    "id": "e11",
+    "vehicleId": "v12",
+    "type": "Food",
     "amount": 180,
-    "date": "2026-07-12",
-    "status": "Paid"
+    "date": "2026-07-12"
   },
   {
-    "id": "EXP012",
-    "tripId": "TRP012",
-    "vehicleId": "VEH014",
-    "category": "Loading",
-    "description": "Milk loading charges",
+    "id": "e12",
+    "vehicleId": "v14",
+    "type": "Loading",
     "amount": 600,
-    "date": "2026-07-13",
-    "status": "Pending"
+    "date": "2026-07-13"
   },
   {
-    "id": "EXP013",
-    "tripId": "TRP013",
-    "vehicleId": "VEH015",
-    "category": "Insurance",
-    "description": "Monthly insurance premium",
+    "id": "e13",
+    "vehicleId": "v15",
+    "type": "Insurance",
     "amount": 4200,
-    "date": "2026-07-12",
-    "status": "Paid"
+    "date": "2026-07-12"
   },
   {
-    "id": "EXP014",
-    "tripId": "TRP014",
-    "vehicleId": "VEH001",
-    "category": "Repair",
-    "description": "Minor tyre puncture repair",
+    "id": "e14",
+    "vehicleId": "v1",
+    "type": "Repair",
     "amount": 450,
-    "date": "2026-07-18",
-    "status": "Pending"
+    "date": "2026-07-18"
   },
   {
-    "id": "EXP015",
-    "tripId": "TRP015",
-    "vehicleId": "VEH003",
-    "category": "Miscellaneous",
-    "description": "Emergency unloading assistance",
+    "id": "e15",
+    "vehicleId": "v3",
+    "type": "Miscellaneous",
     "amount": 700,
-    "date": "2026-07-19",
-    "status": "Paid"
+    "date": "2026-07-19"
   },
   {
-    "id": "EXP016",
-    "tripId": null,
-    "vehicleId": "VEH005",
-    "category": "Maintenance",
-    "description": "Engine overhaul payment",
+    "id": "e16",
+    "vehicleId": "v5",
+    "type": "Maintenance",
     "amount": 18500,
-    "date": "2026-07-10",
-    "status": "Paid"
+    "date": "2026-07-10"
   },
   {
-    "id": "EXP017",
-    "tripId": null,
-    "vehicleId": "VEH010",
-    "category": "Maintenance",
-    "description": "Brake system replacement",
+    "id": "e17",
+    "vehicleId": "v10",
+    "type": "Maintenance",
     "amount": 32000,
-    "date": "2026-07-11",
-    "status": "Pending"
+    "date": "2026-07-11"
   },
   {
-    "id": "EXP018",
-    "tripId": null,
-    "vehicleId": "VEH011",
-    "category": "Insurance",
-    "description": "Annual insurance renewal",
+    "id": "e18",
+    "vehicleId": "v11",
+    "type": "Insurance",
     "amount": 12500,
-    "date": "2026-07-01",
-    "status": "Paid"
+    "date": "2026-07-01"
   },
   {
-    "id": "EXP019",
-    "tripId": null,
-    "vehicleId": "VEH007",
-    "category": "Tax",
-    "description": "Quarterly road tax",
+    "id": "e19",
+    "vehicleId": "v7",
+    "type": "Tax",
     "amount": 8500,
-    "date": "2026-07-03",
-    "status": "Paid"
+    "date": "2026-07-03"
   },
   {
-    "id": "EXP020",
-    "tripId": null,
-    "vehicleId": "VEH015",
-    "category": "Cleaning",
-    "description": "Vehicle washing and detailing",
+    "id": "e20",
+    "vehicleId": "v15",
+    "type": "Cleaning",
     "amount": 950,
-    "date": "2026-07-05",
-    "status": "Paid"
+    "date": "2026-07-05"
   }
 ]
